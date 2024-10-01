@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "all1store",
+    "slug": "all1store",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "aora",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.baebae.all1store"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.baebae.all1store"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "f6fd0d9c-b1c4-422e-ab39-0eeb71f72da5"
+      }
+    }
+  }
+}
